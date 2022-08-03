@@ -1,18 +1,19 @@
 {
-    "id": "yourName_uniqueid",
-    "name": "starsector-gradle-template",
-    "author": "Your Name",
+    "id": "AngelConfederacy",
+    "name": "Angel Confederacy",
+    "author": "E e",
     "utility": "false",
     "version": { "major":"1", "minor": "0", "patch": "0" },
     "description": "Mod description.",
     "gameVersion": "0.95.1a-RC6",
-    "jars":["jars/starsector-gradle-template.jar"],
-    "modPlugin":"com.example.ExampleModPlugin",
+    "jars":["jars/AngelConfederacy.jar"],
+    "modPlugin":"data.scripts.sevencorp_ModPlugin",
     "dependencies": [
         {
             "id": "lw_lazylib",
             "name": "LazyLib",
             # "version": "2.6" # If a specific version or higher is required, include this line
-        }
+        },
+        {"id": "MagicLib", "name": "MagicLib"}
     ]
 }

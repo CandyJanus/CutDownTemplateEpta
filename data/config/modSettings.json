@@ -1,4 +1,7 @@
 {
-    # See https://starsector.fandom.com/wiki/MagicLib#MagicSettings
-    # and https://starsector.fandom.com/wiki/Category:Modding#Mods_inter-compatibility_and_integration
+	#If you so wish, you can disable the factions/subfactions contained within this mod. Will not work retroactively. If you disable both factions, you will have no content.
+	"seven_nexus": {
+		"enableEptaFaction": true
+	},
 }
+
